@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $printTitle = 'Hello Laravel';
+
+    return view('home', ['title' => $printTitle]);
+
+
 });
