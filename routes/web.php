@@ -23,6 +23,8 @@ Route::get('/', function () {
 
 Route::get('/user', function () {
 
-    return view('user');
+    $listUser = ['Mario', 'Pino', 'Filippo', 'Gianni', 'Pietro'];
+
+    return view('user', ['listUser' => $listUser]);
 
 })->name('PaginaUser');
