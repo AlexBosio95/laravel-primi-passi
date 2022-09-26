@@ -10,9 +10,7 @@
 </head>
 <body>
 
-    <h1>{{$title}}</h1>
-
-    <a href="{{route('PaginaUser')}}">Pagina Utente</a>
+    <h1>UserPage</h1>
     
 </body>
 </html>

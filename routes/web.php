@@ -19,5 +19,10 @@ Route::get('/', function () {
 
     return view('home', ['title' => $printTitle]);
 
+})->name('PaginaHome');
 
-});
+Route::get('/user', function () {
+
+    return view('user');
+
+})->name('PaginaUser');
